@@ -29,11 +29,15 @@ Navigate to the script directory:cd Update-LSOAndTest
 ## Usage
 Run the script in an elevated PowerShell session.
 Basic Execution
+``` PowerShell
 .\Update-LSOAndTest.ps1
+```
 
 Executes with default settings, providing detailed output.
 Force Reboot on Failure
+``` PowerShell
 .\Update-LSOAndTest.ps1 -ForceReboot
+```
 
 Automatically restarts the computer if network remediation fails.
 Parameters
@@ -57,6 +61,7 @@ If the second test fails, recommends a reboot (or forces it with -ForceReboot).
 
 
 ## Example Output
+```
 Searching for active, physical network adapters...
 Found 1 active adapter(s): Ethernet
 Processing property 'Large Send Offload V2 (IPv4)' for adapter 'Ethernet'
@@ -66,6 +71,7 @@ Performing first network connection test...
 Pinging 8.8.8.8...
 Ping to 8.8.8.8 was successful.
 Network connection is ACTIVE. Script finished successfully.
+```
 
 ## Notes
 
