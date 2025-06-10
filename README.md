@@ -48,7 +48,7 @@ Parameters
 -ForceReboot: Forces a system restart if the second connectivity test fails.
 
 ## Script Workflow
-
+```
 Check Privileges: Ensures Administrator rights.
 Find Adapters: Filters for active, physical network adapters.
 Disable LSO: Sets LSO v2 (IPv4/IPv6) to 'Disabled' on each adapter.
@@ -57,7 +57,7 @@ Test Connectivity: After a delay, pings specified targets.
 Remediation:
 If the first test fails, restarts adapters and tests again.
 If the second test fails, recommends a reboot (or forces it with -ForceReboot).
-
+```
 
 
 ## Example Output
