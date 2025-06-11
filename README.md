@@ -17,13 +17,6 @@ This script addresses network connectivity issues potentially caused by Large Se
 - PowerShell 5.1 or later
 - Administrator privileges (`#requires -RunAsAdministrator`)
 
-## Installation
-1. Clone or download this repository:
-   ```bash
-   git clone https://github.com/your-username/Update-LSOAndTest.git
-   ```
-Navigate to the script directory:cd Update-LSOAndTest
-
 
 
 ## Usage
